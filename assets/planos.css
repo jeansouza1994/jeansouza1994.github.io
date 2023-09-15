@@ -1,0 +1,138 @@
+.planos {
+  background: #ccc;
+}
+
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  padding: 40px;
+  color: #1c0e00;
+}
+
+.planos-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  background: #ccc;
+}
+
+.planos-tipos {
+  padding: 30px 100px;
+  background: #fff;
+}
+
+.planos-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+/* PLANO MENSAL \/ */
+
+.planos-titulo {
+  font-size: 2.25rem;
+  color: #763000;
+  text-transform: uppercase;
+}
+
+.planos-preco {
+  font-size: 2.25rem;
+  color: #763000;
+  font-weight: 700;
+  position: relative;
+}
+
+.planos-preco::before {
+  content: "mensal";
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  font-size: 0.75rem;
+  color: #666;
+  font-weight: 700;
+}
+
+.planos-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.planos-descricao {
+  font-size: 1.125rem;
+  color: #525252;
+  position: relative;
+}
+
+.planos-descricao::before {
+  content: "";
+  position: absolute;
+  background: url("../img/Vector\ 1.svg") no-repeat center;
+  height: 7px;
+  width: 13px;
+  left: -30px;
+  top: 13px;
+}
+
+.matricule-se {
+  margin-top: 35px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  background: #b95918;
+  padding: 10px 40px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  place-self: start;
+}
+
+/* PLANO ANUAL \/ */
+
+.planos-tipos-dark {
+  padding: 30px 100px;
+  background: #151515;
+}
+
+.planos-titulo-dark {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  color: #ffb17c;
+}
+
+.planos-preco-dark {
+  font-size: 2.25rem;
+  color: #ffb17c;
+  font-weight: 700;
+  position: relative;
+}
+
+.planos-preco-dark::before {
+  content: "mensal";
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  font-size: 0.75rem;
+  color: #b8b8b8;
+  font-weight: 700;
+}
+
+.planos-descricao-dark {
+  font-size: 1.125rem;
+  color: #ccc;
+  position: relative;
+}
+
+.planos-descricao-dark::before {
+  content: "";
+  position: absolute;
+  background: url("../img/Vector\ 1.svg") no-repeat center;
+  height: 7px;
+  width: 13px;
+  left: -30px;
+  top: 13px;
+}

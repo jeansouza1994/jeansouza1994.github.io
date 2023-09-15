@@ -4,11 +4,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teste123</title>
+  <title>mindfit</title>
+  <link rel="stylesheet" href="./assets/style.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <h1>testando123</h1>
+  <header class="header">
+    <span class="logo">mind<span class="laranja">fit</span></span>
+
+    <nav>
+      <ul class="header-menu">
+        <li><a href="/">Endereço</a></li>
+        <li><a href="/">Modalidades</a></li>
+        <li><a href="/">planos</a></li>
+        <li><a class="matricula" href="/">Matricule-se já</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introducao">
+
+    <div class="conteiner-introducao">
+      <span class="frase">“Foco sem disciplina é só um sonho.”</span>
+      <p class="endereco">Rua Arlindo Cruz, 194, Penha, Rio de janeiro, RJ</p>
+      <a class="saiba-mais" href="/">Saiba mais</a>
+    </div>
+
+  </main>
+
+  <section class="modalidades">
+
+    <h1 class="titulo">Modalidades</h1>
+
+    <div class="modalidades-main">
+      <div class="modalidades-conteiner">
+        <img class="img-modalidades" src="./img/img-jiu-jitsu-pq.jpg" alt="Lutadores de Jiu jitsu">
+        <p class="aulas">3 aulas</p>
+        <p class="aulas-modalidades">Luta e combate</p>
+        <a class="ver-aulas" href="/">Ver aulas</a>
+      </div>
+      <div class="modalidades-conteiner">
+        <img class="img-modalidades" src="./img/img-musculação-pq.jpg" alt="Homem fazendo musculação">
+        <p class="aulas">5 aulas</p>
+        <p class="aulas-modalidades">Força e movimento</p>
+        <a class="ver-aulas" href="/">Ver aulas</a>
+      </div>
+      <div class="modalidades-conteiner">
+        <img class="img-modalidades" src="./img/img-yoga-pq.jpg" alt="Mulher fazendo yoga">
+        <p class="aulas">4 aulas</p>
+        <p class="aulas-modalidades">Flexível</p>
+        <a class="ver-aulas" href="/">Ver aulas</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="planos">
+
+    <h1 class="titulo">Encontre seu plano</h1>
+
+    <div class="planos-main">
+
+      <div class="planos-tipos">
+        <div class="planos-header">
+          <h2 class="planos-titulo">Mensal</h2>
+          <span class="planos-preco">R$80</span>
+        </div>
+
+        <div class="planos-conteudo">
+          <p class="planos-descricao">Sem multas ou taxas de cancelamento</p>
+          <p class="planos-descricao">Acesso a todas as aulas coletivas</p>
+          <p class="planos-descricao">Sem restrição de horários </p>
+          <p class="planos-descricao">Leve 1 amigo para treinar</p>
+          <a class="matricule-se" href="/">Matricule-se</a>
+        </div>
+      </div>
+
+      <div class="planos-tipos-dark">
+        <div class="planos-tipos-dark-2">
+          <div class="planos-header">
+            <h2 class="planos-titulo-dark">Anual</h2>
+            <span class="planos-preco-dark">R$80</span>
+          </div>
+          <div class="planos-conteudo">
+            <p class="planos-descricao-dark">Sem multas ou taxas de cancelamento</p>
+            <p class="planos-descricao-dark">Acesso a todas as aulas coletivas</p>
+            <p class="planos-descricao-dark">Sem restrição de horários </p>
+            <p class="planos-descricao-dark" class="dark">Leve 2 amigo para treinar</p>
+            <a class="matricule-se" href="/">Matricule-se</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="contato">
+    <p class="contato-descricao">Fale conosco pelo whatsapp</p>
+
+    <a class="contato-botao" href="/"><img class="whatsapp" src="img/whatsapp.svg" alt="">Iniciar conversa</a>
+
+    <p class="contato-descricao">Se preferir, envie um e-mail para: <span class="email">contato@mindfit.com.br</span></p>
+
+  </section>
+
 </body>
 
 </html>

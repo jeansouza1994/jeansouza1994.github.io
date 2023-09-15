@@ -1,0 +1,51 @@
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  padding: 40px;
+  color: #1c0e00;
+}
+
+.modalidades-main {
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+}
+
+.modalidades-conteiner {
+  display: flex;
+  flex-direction: column;
+  place-content: center center;
+  justify-items: start;
+  text-align: center;
+  gap: 5px;
+  box-shadow: 1px 0px 0px 1px rgba(0, 0, 0, 0.103);
+}
+
+.img-modalidades {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.aulas {
+  color: #666666;
+  font-size: 1.5rem;
+}
+
+.aulas-modalidades {
+  color: #1c0e00;
+  font-size: 2.25rem;
+  padding-bottom: 40px;
+}
+
+.ver-aulas {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  background: #b95918;
+  padding: 10px 40px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  place-self: center;
+}

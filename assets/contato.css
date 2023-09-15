@@ -1,0 +1,32 @@
+.contato {
+  background: #151515;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.contato-descricao {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.contato-botao {
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: #85481e;
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.6rem;
+  line-height: 1.175;
+}
+
+.email {
+  text-decoration: underline;
+}
